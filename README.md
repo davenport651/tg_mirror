@@ -3,6 +3,8 @@
 ## Introduction
 This is the tg_mirror, a tool written to help my friends in the LGBTQ+ community that uses AI to "look through the mirror" and see an alternate version of themselves.
 
+<img src="screenshot.png" width="45%" />
+
 ## Installation Instructions
 To get started with tg_mirror, follow these simple steps:
   - download mirror-mirror.py
