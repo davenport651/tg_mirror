@@ -22,6 +22,15 @@ My goal was to give the user as much privacy and ownership of their photos and A
   * Your key and photo never leave your machine except to go directly to xAI
   * Make sure you click "Save Output..." to save the generated file. This is a 'one and done' tool.
 
+## Version 2
+📷 Webcam capture support
+🔁 Toggle between xAI Grok and Google Gemini
+🧠 Three Gemini models to choose from (2.5-flash, 3.1-flash default, 3-pro)
+🖼️ Drag & drop + URL + file loading
+✗ Clear failure state when generation is declined
+⚡ Late Image notice (straggler queue) for results that arrive while a new generation is in progress
+🔒 API keys never stored to disk
+
 ## ⚠️ Disclaimer
   * This is "Bring Your Own Key" software that runs locally for a user. No data is sent to the developer and the end user is solely responsible for the content they generate using their personal API key.
   * The end user should be mindful of xAI's Acceptable Use Policy.
