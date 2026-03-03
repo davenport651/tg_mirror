@@ -8,11 +8,20 @@ This is the tg_mirror, a tool written to help my friends in the LGBTQ+ community
 ## Installation Instructions
 To get started with tg_mirror, follow these simple steps:
   - download mirror-mirror.py
-  - pip install xai-sdk pillow tkinterdnd2
+  - minimal: pip install pillow tk xai-sdk #OR google-genai
+  - complete: pip install pillow tk tkinterdnd2 google-genai xai-sdk opencv-python
   - python mirror-mirror.py
+
 
 ## Transparency and xAI
 My goal was to give the user as much privacy and ownership of their photos and API key as practical while still allowing them to see themselves in a new way. Grok Imagine is, in my limited experience, the best AI image editor to consistently perform this kind of gender transformation with a simple prompt. Although you don't have to trust me with your data, you do have to trust xAI/Elon Musk. Their API data FAQ is <a href="https://docs.x.ai/developers/faq/security">at this link</a>, and they say they do not use this input for model training and remove it after 30 days. This is better than using Grok's website or mobile apps, but if you don't feel comfortable using their service, you should not proceed. I will eventually try to make a version of this tool that uses other AI providers and/or a self-hosted version.
+
+## Model Choices
+gemini-3.1-flash ⭐ (fast, faithful)
+gemini-3-pro (detailed, slow)
+gemini-2.5-flash (fastest, stylized)
+grok-imagine-image-pro	(medium detail, medium speed)
+grok-imagine-image (fastest, stylized)
 
 ## Usage Notes:
   * You will need an xAI API key from <a href="https://console.x.ai/">console.x.ai</a> — new accounts might get some free credits and <a href="https://docs.x.ai/developers/models">pricing is generally</a> between $0.05 and $0.17 / generation
